@@ -1,0 +1,1210 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+
+.logo{
+    color:orange;
+}
+
+
+
+#navigation{
+
+    display:flex;
+    justify-content: space-between;
+    background-color: orange;
+    width:100%;
+    position: sticky;
+    top: 0;
+    left:0;
+    overflow:hidden;
+      
+}
+  #navigation ul {
+
+    display:flex; 
+}
+#navigation ul li{
+    margin:10px;
+    padding:15px;
+    list-style:none;
+    background-color:grey;
+}
+
+
+ .title{
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:10px;
+    padding:10px;
+    background-color:grey;
+}
+
+#navigation ul li a{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    text-decoration:none;
+    color:orange;
+
+}
+#navigation ul li:hover
+{
+    background:black;
+    border-radius:1em;
+
+}
+footer{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align:center;
+    padding:10px;
+    background:grey;
+    color:black;
+}
+
+/* login */
+#form-wrap{
+
+    background: url(./img/3..jpeg) no-repeat center center/cover;   
+        
+}
+
+#container{
+
+    text-align:center;
+    padding:10px;
+    width:500px;
+    height:100vh;
+} 
+    
+/* #popup{
+    transform:translateY(-1200px);
+    animation:animate-2 3s  forwards  ease-in-out;
+
+}
+@keyframes animate-2{
+    
+    to{
+         transform:translateY(0);
+    } */
+
+#form h1{
+    font-family:sans-serif;
+    background:grey;
+    color:black;
+    margin-top:20px;
+
+}
+
+#form p{
+    margin-top:5px;
+    font-weight:bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:grey;
+    line-height:2rem;
+    
+}
+#form p a{
+    text-decoration:none;
+    color:orange;
+
+}
+
+.form-wrap{
+
+    color:grey;
+    font-weight:bold;
+    padding:10px;
+    margin:5px;
+
+}
+.form-wrap input{
+
+    width:90%;
+    border:2px solid black;
+    padding:3px; 
+
+}
+
+.btn{
+    
+    font-weight:bold;
+    width:40%;
+    margin:10px;
+    padding:10px;
+    background:rgb(206, 137, 8);
+    font-weight:bold;
+    border:none;
+}
+
+.btn:hover{
+
+    background:rgb(116, 78, 8);
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+
+}
+#container p1{
+
+    font-family: sans-serif;
+    color:grey;
+    font-weight:bold;
+    font-size:15px;
+}
+
+ span{
+    color:orange;
+}
+
+#container #error{
+    margin-top:20px;
+    padding:0px;
+    background:grey;
+}
+
+/* header */
+#header{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:600px;
+      
+}
+
+#bg-primary{
+     
+width:100%;
+height:100px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+#slideimage{
+    width:100%;
+    height:700px;
+}
+
+
+.header{
+
+    font-family: sans-serif;
+    font-size:40px;
+    color:rgb(53, 51, 51);
+    font-weight:bold;
+}
+
+.order{
+
+    margin:10px;
+    padding:20px;
+    background-color:rgb(58, 56, 56);
+    transition:all 1s ease-in-out;
+}
+.order a{
+
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:orange;
+    font-size:20px;
+}
+
+.order:hover{
+
+    background-color:grey;
+    cursor:pointer;
+    transition:2s ease-in-out ;
+    
+}
+
+/* slideshow */
+#slideshow {
+
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+
+}
+.box{
+    
+    height:250px;
+}
+
+.food{
+
+    text-align:center;
+    padding:15px;
+    width:100%;
+    transform:translateX(-1200px);
+    animation:animate-1 3s  forwards  ease-in-out;
+}
+@keyframes animate-1{
+    
+    to{
+         transform:translateX(0);
+    }
+}
+
+ h3{
+
+    font-family:Arial, Helvetica, sans-serif ;
+    color:orange;
+    background:black;
+    font-size:30px;
+}
+#box-1{
+
+    background-image: url(./img/12.jpeg) ;
+    background-size: cover;
+    background-position:center ;   
+
+}
+
+#box-2{
+
+    background-image: url(./img/10.jpeg) ;
+    background-size: cover;
+    background-position:center ;
+
+}
+#box-3{
+
+    background-image: url(./img/6.jpeg) ;
+    background-size: cover;
+    background-position:center ;
+
+}
+
+#box-4{
+
+    background-image: url(./img/4.jpeg) ;
+    background-size: cover;
+    background-position:center ;
+}
+#box-5{
+
+    background-image: url(./img/5.jpeg) ;
+    background-size: cover;
+    background-position:center ;    
+}
+#box-6{
+
+    background-image: url(./img/9.jpeg) ;
+    background-size: cover;
+    background-position:center ;
+}
+#box-7{
+
+    background-image: url(./img/7.jpeg) ;
+    background-size: cover;
+    background-position:center ;
+    
+}
+#box-8{
+
+    background-image: url(./img/8.jpg) ;
+    background-size: cover;
+    background-position:center ;
+    
+}
+#box-9{
+
+    background-image: url(./img/10.jpeg) ;
+    background-size: cover;
+    background-position:center ;
+} 
+
+/* feedback */
+
+#feedback-us{
+     background-image:url(./img/2.jpeg) ;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+#feedback{
+
+  
+    /* background:grey; */
+    height:100vh;
+    overflow:hidden;
+    
+}
+
+
+.write{
+
+    /* background:grey; */
+    font-family:Arial, Helvetica, sans-serif ;
+    padding:15px;    
+}
+.write h1{
+    color:orange;
+}
+
+.feed{
+    
+    margin:10px; 
+    margin-bottom:0;  
+}
+.feed textarea:focus{
+    background:black;
+    color:orange;
+    font-size:20px;
+    border-color:orange;
+}
+
+.btn-2{
+    margin:10px;
+    padding:10px;
+    font-weight:bold;
+    border-radius:30%;
+    border:none;
+    background-color:black;
+    color:orange;
+}
+
+.btn-2:hover{
+    background-color:grey;
+    color:black;
+    transition:all 1s  ease-in-out;
+    cursor:pointer;
+}
+#rating p{
+    font-size:30px;
+    font-weight:bold;
+}
+
+.rating{
+    display:flex;
+    margin-top:10px;
+}
+.rating i{
+    color:orange;
+
+}
+
+.testimonial-1{
+
+    background:black;
+    display: inline-block;
+    width:98%;
+    margin:10px;
+    padding:10px;
+    border:2px solid orange;
+    /* opacity:0.75; */
+
+}
+
+.img-1{
+
+    float:left;
+    border-radius:50%;
+    height:100px;
+    margin-right:15px;    
+}
+ 
+.para-1{
+    
+    color:grey;
+    font-size: 20px;
+    padding:10px;
+    margin: 10px;
+
+    
+}
+
+.heading-2{
+    background:black;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    color:orange;
+    font-size:30px;
+    margin:10px;
+}
+
+/* contact */
+
+ .head{
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+#contact-us{
+    margin:20px;
+    padding;20px;
+}
+.head{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;;
+}
+.head h5{
+    background:grey;
+    width:17%;
+    padding:10px;
+    margin-bottom:5px;
+}
+
+ h5 .contact{
+    color:orange;
+}
+
+.form-group label{
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    line-height:2rem;
+}
+.form-group input,
+.form-group textarea{
+    width:40%;
+    outline: none;
+
+}
+
+#message{
+      resize:none;
+    
+}
+
+.form-group input:focus,
+.form-group textarea:focus{
+
+    border-color:orange;
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.btn1{
+    margin-top:10px;
+    color:orange;
+    background:black;
+    padding:10px;
+    border:none;
+    font-size:1em;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+#contact-info{
+    display:grid;
+    grid-template-columns: repeat(4,auto);
+    background:grey;;
+    
+}
+.contact-1{
+    
+    padding:5px;
+    background:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:grey;
+    text-align:center;
+   
+}
+
+
+.contact-2{
+    
+    padding:5px;
+    background:orange;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:grey;
+    text-align:center;
+   
+}
+.contact-1 i{
+    color:orange;
+ } 
+
+ .contact-2 i{
+    color:black;
+ } 
+
+ #contact-info p{
+     font-weight:bold;
+
+ } 
+ 
+ /* MENU */
+ #menu-list{
+     display:grid;
+     grid-template-columns: repeat(3,auto);
+ }
+
+  #menu{
+     border:solid 2px black;
+     height:200px;
+     font-size:40px;
+     margin:10px;
+     background-color: orange;
+   
+ }
+ #menu1{
+    border:solid 2px black;
+    height:200px;
+    font-size:40px;
+    margin:10px;
+    background-color: black;
+  
+}
+
+
+#menu h4{
+    text-align: center;
+    padding-top: 70px;
+
+ }
+ #menu1 h4{
+    text-align: center;
+    padding-top: 70px;
+
+ }
+
+ 
+ #menu h4 a{
+     text-decoration:none;
+     color:grey;
+ }
+ #menu1 h4 a{
+    text-decoration:none;
+    color:grey;
+}
+
+/* burger */
+#burger{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+}
+
+.burger{
+    border:2px solid black;
+    height:200px;
+    margin:10px;
+}
+
+.burger i{
+    color:orange;
+}
+
+.info{
+    margin:10px;
+    padding:5px;
+    background:grey;
+    font-family:sans-serif;
+}
+.info p{
+    color:orange;
+}
+.info i{
+    color:yellow;;
+}
+
+#burger-1{
+    background:- url(./img/burger/1.jpg) no-repeat center center/cover;
+}
+#burger-2{
+    background: url(./img/burger/2.jpg) no-repeat center center/cover;
+}
+#burger-3{
+    background: url(./img/burger/3.jpg) no-repeat center center/cover;
+}
+#burger-4{
+    background: url(./img/burger/4.jpg) no-repeat center center/cover;
+}
+#burger-5{
+    background: url(./img/burger/5.jpg) no-repeat center center/cover;
+}
+#burger-6{
+    background: url(./img/burger/6.jpg) no-repeat center center/cover;
+}
+#burger-7{
+    background: url(./img/burger/7.jpg) no-repeat center center/cover;
+}
+#burger-8{
+    background: url(./img/burger/8.jfif) no-repeat center center/cover;
+}
+#burger-9{
+    background: url(./img/burger/9.jpg) no-repeat center center/cover;
+}
+
+/* Pizza */
+#pizza{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+}
+
+.pizza{
+    border:2px solid black;
+    height:200px;
+    margin:10px;
+}
+
+.pizza i{
+    color:orange;
+}
+
+
+
+#pizza-1{
+    background: url(./img/pizza/1.jpg) no-repeat center center/cover;
+}
+#pizza-2{
+    background: url(./img/pizza/2.jpg) no-repeat center center/cover;
+}
+#pizza-3{
+    background: url(./img/pizza/3.jpg) no-repeat center center/cover;
+}
+#pizza-4{
+    background: url(./img/pizza/4.jpg) no-repeat center center/cover;
+}
+#pizza-5{
+    background: url(./img/pizza/5.jpg) no-repeat center center/cover;
+}
+#pizza-6{
+    background: url(./img/pizza/6.jpg) no-repeat center center/cover;
+}
+#pizza-7{
+    background: url(./img/pizza/7.jpg) no-repeat center center/cover;
+}
+#pizza-8{
+    background: url(./img/pizza/8.jpg) no-repeat center center/cover;
+}
+#pizza-9{
+    background: url(./img/pizza/9.jpeg) no-repeat center center/cover;
+}
+
+/* Sweet */
+
+#sweet{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+}
+
+.sweet{
+    border:2px solid black;
+    height:200px;
+    margin:10px;
+}
+
+.sweet i{
+    color:orange;
+}
+
+
+
+#sweet-1{
+    background: url(./img/sweet/1.jpg) no-repeat center center/cover;
+}
+#sweet-2{
+    background: url(./img/sweet/2.jpg) no-repeat center center/cover;
+}
+#sweet-3{
+    background: url(./img/sweet/3.jpg) no-repeat center center/cover;
+}
+#sweet-4{
+    background: url(./img/sweet/4.jpg) no-repeat center center/cover;
+}
+#sweet-5{
+    background: url(./img/sweet/5.jpg) no-repeat center center/cover;
+}
+#sweet-6{
+    background: url(./img/sweet/6.jpg) no-repeat center center/cover;
+}
+#sweet-7{
+    background: url(./img/sweet/7.jpg) no-repeat center center/cover;
+}
+#sweet-8{
+    background: url(./img/pizza/selective-focus-photography-of-baked-pizza-3053082.jpg) no-repeat center center/cover;
+}
+#sweet-9{
+    background: url(./img/pizza/12.jpeg) no-repeat center center/cover;
+}
+
+/* north */
+
+#north{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+}
+
+.north{
+    border:2px solid black;
+    height:200px;
+    margin:10px;
+}
+
+.north i{
+    color:orange;
+}
+
+.info{
+    margin:10px;
+    padding:5px;
+    background:grey;
+    font-family:sans-serif;
+}
+.info p{
+    color:orange;
+}
+.info i{
+    color:yellow;;
+}
+
+#north-1{
+    background: url(./img/north-indian/23d06f53-papdi_chaat_l_still.jpg) no-repeat center center/cover;
+}
+#north-2{
+    background: url(./img/north-indian/close-up-photo-of-fried-food-on-saucer-2474658.jpg) no-repeat center center/cover;
+}
+#north-3{
+    background: url(./img/north-indian/cooked-rice-and-curry-food-served-on-white-plate-674574.jpg) no-repeat center center/cover;
+}
+#north-4{
+    background: url(./img/north-indian/daalmakhni1-1-e1528880303680.jpg) no-repeat center center/cover;
+}
+#north-5{
+    background: url(./img/north-indian/gettyimages-670907141-170667a.jpg) no-repeat center center/cover;
+}
+#north-6{
+    background: url(./img/north-indian/Litti-Chokha-655x477.jpg) no-repeat center center/cover;
+}
+#north-7{
+    background: url(./img/north-indian/Pav-Bhaji.jpg) no-repeat center center/cover;
+}
+#north-8{
+    background: url(./img/north-indian/unnamed.jpg) no-repeat center center/cover;
+}
+#north-9{
+    background: url(./img/north-indian/close-up-photo-of-fried-food-on-saucer-2474658.jpg) no-repeat center center/cover;
+}
+/* south */
+#south{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+}
+
+.south{
+    border:2px solid black;
+    height:200px;
+    margin:10px;
+}
+
+.south i{
+    color:orange;
+}
+
+.info{
+    margin:10px;
+    padding:5px;
+    background:grey;
+    font-family:sans-serif;
+}
+.info p{
+    color:orange;
+}
+.info i{
+    color:yellow;;
+}
+
+#south-1{
+    background: url(./img/south-indian/1543591453-2779.jpg) no-repeat center center/cover;
+}
+#south-2{
+    background: url(./img/south-indian/masala-dosa-shutterstock_785766178-840x560.jpg) no-repeat center center/cover;
+}
+#south-3{
+    background: url(./img/south-indian/medu-vada-500x375.jpg) no-repeat center center/cover;
+}
+#south-4{
+    background: url(./img/south-indian/platter-of-foods-941869.jpg) no-repeat center center/cover;
+}
+#south-5{
+    background: url(./img/south-indian/raju-gari-kodi-pulao-370x220.jpg) no-repeat center center/cover;
+}
+#south-6{
+    background: url(./img/south-indian/south-indian-food-1.jpg) no-repeat center center/cover;
+}
+#south-7{
+    background: url(./img/south-indian/uttapam-1024x684.jpg) no-repeat center center/cover;
+}
+#south-8{
+    background: url(./img/south-indian/download.jfif) no-repeat center center/cover;
+}
+#south-9{
+    background: url(./img/south-indian/images.jfif) no-repeat center center/cover;
+}
+
+/* chinese */
+#chinese{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+}
+
+.chinese{
+    border:2px solid black;
+    height:200px;
+    margin:10px;
+}
+
+.chinese i{
+    color:orange;
+}
+
+.info{
+    margin:10px;
+    padding:5px;
+    background:grey;
+    font-family:sans-serif;
+}
+.info p{
+    color:orange;
+}
+.info i{
+    color:yellow;;
+}
+
+#chinese-1{
+    background: url(./img/Chinese/assorted-sushi-rolls-on-plate-2323391.jpg) no-repeat center center/cover;
+}
+#chinese-2{
+    background: url(./img/Chinese/avocado-cooked-delicious-dish-262959.jpg) no-repeat center center/cover;
+}
+#chinese-3{
+    background: url(./img/Chinese/close-up-photo-of-three-sushi-1148086.jpg) no-repeat center center/cover;
+}
+#chinese-4{
+    background: url(./img/Chinese/close-up-photography-of-spaghetti-722670.jpg) no-repeat center center/cover;
+}
+#chinese-5{
+    background: url(./img/Chinese/deep-fried-shrimp-and-squid-with-slice-of-lemon-on-ceramic-921367.jpg) no-repeat center center/cover;
+}
+#chinese-6{
+    background: url(./img/Chinese/plate-of-vegetable-salad-983587.jpg) no-repeat center center/cover;
+}
+#chinese-7{
+    background: url(./img/Chinese/round-white-ceramic-bowl-1103909.jpg) no-repeat center center/cover;
+}
+#chinese-8{
+    background: url(./img/Chinese/sliced-fruit-on-white-ceramic-plate-3669501.jpg) no-repeat center center/cover;
+}
+#chinese-9{
+    background: url(./img/Chinese/sliced-vegetable-and-cooked-food-on-white-ceramic-plate-1234535.jpg) no-repeat center center/cover;
+ } 
+
+ /* Italian */
+
+ #italian{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+}
+
+.italian{
+    border:2px solid black;
+    height:200px;
+    margin:10px;
+}
+
+.italian i{
+    color:orange;
+}
+
+.info{
+    margin:10px;
+    padding:5px;
+    background:grey;
+    font-family:sans-serif;
+}
+.info p{
+    color:orange;
+}
+.info i{
+    color:yellow;;
+}
+
+#italian-1{
+    background: url(./img/Italian/club-sandwich-served-on-chopping-board-1600711.jpg) no-repeat center center/cover;
+}
+#italian-2{
+    background: url(./img/Italian/cooked-pasta-with-sliced-tomatoes-and-green-leafy-128408.jpg) no-repeat center center/cover;
+}
+#italian-3{
+    background: url(./img/Italian/garlic-shrimp-dish-699544.jpg) no-repeat center center/cover;
+}
+#italian-4{
+    background: url(./img/Italian/gettyimages-125530452-170667a.jpg) no-repeat center center/cover;
+}
+#italian-5{
+    background: url(./img/Italian/pasta-noodles-tomato-sauce-spirelli-14737.jpg) no-repeat center center/cover;
+}
+#italian-6{
+    background: url(./img/Italian/pasta-on-white-plate-on-focus-photo-1527603.jpg) no-repeat center center/cover;
+}
+#italian-7{
+    background: url(./img/Italian/pasta-with-vegetable-dish-on-gray-plate-beside-tomato-fruit-769969.jpg) no-repeat center center/cover;
+}
+#italian-8{
+    background: url(./img/Italian/white-rice-on-green-round-bowl-47546.jpg) no-repeat center center/cover;
+}
+#italian-9{
+    background: url(./img/Italian/garlic-shrimp-dish-699544.jpg) no-repeat center center/cover;
+}
+
+/* Non-veg */
+
+#non{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+}
+
+.non{
+    border:2px solid black;
+    height:200px;
+    margin:10px;
+}
+
+.non i{
+    color:orange;
+}
+
+.info{
+    margin:10px;
+    padding:5px;
+    background:grey;
+    font-family:sans-serif;
+}
+.info p{
+    color:orange;
+}
+.info i{
+    color:yellow;;
+}
+
+#non-1{
+    background: url(./img/nonveg/26fir26-1_647_022617012213.jpg) no-repeat center center/cover;
+}
+#non-2{
+    background: url(./img/nonveg/brown-and-gray-clay-serving-pots-2302809.jpg) no-repeat center center/cover;
+}
+#non-3{
+    background: url(./img/nonveg/Grilled-Tilapia-600x380.jpg) no-repeat center center/cover;
+}
+#non-4{
+    background: url(./img/nonveg/news15137.jpg) no-repeat center center/cover;
+}
+#non-5{
+    background: url(./img/nonveg/nonvage.jpg) no-repeat center center/cover;
+}
+#non-6{
+    background: url(./img/nonveg/grilled-meats-on-skewers-2233729.jpg) no-repeat center center/cover;
+}
+
+/* soup */
+
+#soup{
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+}
+
+.soup{
+    border:2px solid black;
+    height:200px;
+    margin:10px;
+}
+
+.soup i{
+    color:orange;
+}
+
+.info{
+    margin:10px;
+    padding:5px;
+    background:grey;
+    font-family:sans-serif;
+}
+.info p{
+    color:orange;
+}
+.info i{
+    color:yellow;;
+}
+
+#soup-1{
+    background: url(./img/Soup/bowl-close-up-cuisine-delicious-360939.jpg) no-repeat center center/cover;
+}
+#soup-2{
+    background: url(./img/Soup/bowl-of-dimsum-688803.jpg) no-repeat center center/cover;
+}
+#soup-3{
+    background: url(./img/Soup/bowl-of-shrimp-soup-on-brown-wooden-surface-688802.jpg) no-repeat center center/cover;
+}
+#soup-4{
+    background: url(./img/Soup/bowl-of-soup-and-two-silver-spoons-1703272.jpg) no-repeat center center/cover;
+}
+#soup-5{
+    background: url(./img/Soup/bread-with-soup-2474661.jpg) no-repeat center center/cover;
+}
+#soup-6{
+    background: url(./img/Soup/chicken-soup-dish-2532442.jpg) no-repeat center center/cover;
+}
+
+/* cart */
+.products-container{
+    max-width: 650px;
+    justify-content: space-around;
+    margin:0 auto;
+    margin-top: 50px;
+}
+
+.products i{
+    font-size:25px;
+    color:orange;
+    margin: 10px;
+    cursor:pointer;
+
+}
+
+.product-header{
+    width:100%;
+    max-width:650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgrey;
+    margin:0 auto;
+}
+
+.product-title{
+    width:45%;
+    font-size:30px;
+
+}
+
+.price{
+    width:15%;
+    border-bottom:4px solid lightgrey;
+    display: flex;
+    align-items: center;
+
+}
+
+.quantity{
+    width:30%;
+    border-bottom:4px solid lightgrey;
+    display: flex;
+    align-items: center;
+}
+
+.total{
+    width:10%;
+    border-bottom:4px solid lightgrey;
+    display: flex;
+    align-items: center;
+}
+
+.product{
+    width:45%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.products{
+    
+    display: flex;;
+    flex-wrap: wrap;
+    max-width:650px;
+    margin:auto;
+}
+
+.basketTotalContainer{
+    display:flex;
+    justify-content: flex-end;
+    width:100%;
+    padding:10px 0;
+}
+.basketTotalTitle{
+    width:30%;
+}
+
+.basketTotal{
+    width:10%;
+}
+#Cartimage{
+    width:150px;
+    height:150px;
+    margin:5px;
+    padding:10px;
+    
+}
+.order-btn{
+    margin:15px;
+    padding:10px;
+    color:orange;
+    background:black;
+    font-size:20px;
+    border:none;
+    cursor:pointer;
+}
+.order-btn a{
+    text-decoration: none;
+    color:orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+

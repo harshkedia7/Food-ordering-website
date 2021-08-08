@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+   
+   
+    
+</head>
+
+<body>
+    <div id="navigation">
+        <div class="title"> <h1>JUST <span class="logo"> EAT</span></h1></div>
+     
+         <ul >
+             <li><a href="home.html">Home</a></li>
+             <li><a href="menu.html">Menu</a></li>
+             <li><a href="feedback.html">Feedback</a></li>
+             <li><a href="contact.html">Contact</a></li>
+             <li><a href="#">Login </a></li>
+            
+         </ul>
+         
+     </div>
+
+  <div id="form-wrap">
+      
+    <div id="container">
+        
+       <div id="form">
+           <h1>JUST <span>EAT</span> </h1>
+           <p>Already registered? <span><a href="login2.html">Click here</a></span> </p>
+
+      <form >
+       <div class="form-wrap">
+           <label  for="name">First Name</label><br>
+           <input id="name" type="text"  name="name" > 
+           <label  id="lbluser" style="color:red ;visibility: hidden">Invalid name</label>
+       </div>
+       <div class="form-wrap">
+            <label for="name">Last Name</label><br>
+            <input  type="text" id="last_name" name="name" >
+            <label  id="last_lbluser" style="color:red; visibility: hidden">Invalid Last Name</label>
+        </div>
+        <div class="form-wrap">
+            <label for="number">Phone No</label><br>
+            <input type="number" id="number" name="number" >
+            <label  id="c_lbluser" style="color:red; visibility: hidden">Invalid Phone no</label>
+        </div>
+        <div class="form-wrap">
+            <label for="email">E-mail</label><br>
+            <input type="text" id="email" name="e-mail" >
+            <label  id="e_lbluser" style="color:red; visibility: hidden">Invalid E-mail</label>
+        </div>
+        <div class="form-wrap">
+            <label for="password">Password</label><br>
+            <input  type="password" id="password" name="password">
+            <label  id="p_lbluser" style="color:red; visibility: hidden">Invalid password</label>
+        </div>
+        <div class="form-wrap">
+            <label for="password">Confirm Password</label><br>
+            <input  type="password" id= "cpassword" name="password">
+        
+        </div>
+                
+        <button  onclick=" validation()" class="btn" type="submit" ><a style="text-decoration:none ;color:black" href="#">Sign Up</a></button>
+                  
+     </form>
+    
+
+ </div> 
+    
+
+       <p1>By clicking <span> Sign up</span> button </p1><br>
+       <p1>You will agree our terms and condition</p1>
+    </div>
+
+</div>
+<script src="app.js"></script>
+<footer>
+    <div>Copyright &copy Just-eat 2020 all right reserved</div>
+</footer>
+ 
+</body>
+</html>

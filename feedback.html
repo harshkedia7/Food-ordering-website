@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Feedback</title>
+    <style>
+        .rating-box {
+            margin:15px;
+            font-family: sans-serif;
+            padding:10px;
+        }
+        .rating-box h1{
+            color:orange;
+            font-size:30px;
+            margin-bottom: 10px;
+        }
+        .ratings span{
+            font-size:30px; ;
+        }
+        .rating-box input{
+            width:5%;
+            font-size:20px;
+            margin-top:10px;
+            height:30px;
+            background:black;
+            color:orange;
+            font-weight:bold;
+            border-radius:50%;
+            text-align:center;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div id="navigation">
+        <div class="title"> <h1>JUST <span class="logo"> EAT</span></h1></div>
+     
+         <ul >
+             <li><a href="home.html">Home</a></li>
+             <li><a href="menu.html">Menu</a></li>
+             <li><a href="#">Feedback</a></li>
+             <li><a href="contact.html">Contact</a></li>
+             <li><a href="login.html">Login</a></li>
+            
+         </ul>
+         
+     </div>
+    
+
+     <div>
+         <section id="feedback-us">
+
+        
+         <div class="write">
+               <h1 class="heading-1">Feedback us here</h1>
+               <div class="feed">
+               <textarea  cols="80" rows="5"></textarea>
+               </div>
+               <button onclick="save()" type="submit" class="btn-2">Save</button>      
+         </div>
+        
+
+         <div class="rating-box">
+            <h1>Rating system</h1>
+            <div class="ratings">
+                <span class="fa fa-star-o"></span>
+                <span class="fa fa-star-o"></span>
+                <span class="fa fa-star-o"></span>
+                <span class="fa fa-star-o"></span>
+                <span class="fa fa-star-o"></span>
+            </div>
+            <input type="text" id="rating-value">
+        </div>
+
+        </section>  
+         <div id="feedback">
+         <h2 class="heading-2">Customers Feedback</h2>
+         <div class="testimonial-1">
+             <img class="img-1" src="./img/person-1.jpg" >
+             <p class="para-1">My experience is awesome .The food is tasty.I prefer to order the pizza actually because 
+                 i was an amazing taste.The service is also good.
+                
+             </p>
+
+         </div>
+         <div class="testimonial-1">
+            <img class="img-1" src="img/person-4.jpeg" >
+            <p class="para-1">I am very much satisfy with the taste and services provided by Just Eat .The quality of food and Taste is very good.The delivery 
+                is also fast.I prefer to taste the burger as i enjoyed it very much.</p>
+        </div>
+        <div class="testimonial-1">
+            <img class="img-1" src="img/person-3.jpeg" >
+            <p class="para-1">Actually i love to eat chinese food .It was a great experience of chinese food.
+                The taste of foood is very good.</p>
+
+        </div>
+         <div class="testimonial-1">
+             <img  class="img-1" src="./img/person-2.jpg" >
+             <p class="para-1">My experience is awesome .The food is tasty.I prefer to order the south actually because 
+                i was an amazing taste.The service is also good.</p>
+
+
+         </div>
+     </div>
+    <script src="script.js"></script>
+     <footer>
+        <div>Copyright &copy Just-eat 2020 all rights reserved</div>
+    </footer>
+        
+</body>
+</html>
