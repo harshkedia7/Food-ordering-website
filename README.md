@@ -1,1 +1,1 @@
-# collage_project1
+# college_project1
